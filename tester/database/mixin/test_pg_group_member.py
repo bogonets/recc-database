@@ -2,8 +2,8 @@
 
 from unittest import main
 
-from recc_db.packet.group_join_member import GroupJoinGroupMember
-from tester.unittest.postgresql_test_case import PostgresqlTestCase
+from recc_database.packet.group_join_member import GroupJoinGroupMember
+from tester.postgresql_test_case import PostgresqlTestCase
 
 
 class PgGroupMemberTestCase(PostgresqlTestCase):

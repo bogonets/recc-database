@@ -68,6 +68,6 @@ fi
 print_message "isort ${ARGS[*]}"
 
 "$ROOT_DIR/python" -m isort "${ARGS[@]}" \
-    "$ROOT_DIR/recc_db/" \
+    "$ROOT_DIR/recc_database/" \
     "$ROOT_DIR/tester/" \
     "$ROOT_DIR/setup.py"

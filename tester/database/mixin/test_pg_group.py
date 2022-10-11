@@ -3,7 +3,7 @@
 from datetime import datetime, timedelta
 from unittest import main
 
-from tester.unittest.postgresql_test_case import PostgresqlTestCase
+from tester.postgresql_test_case import PostgresqlTestCase
 
 
 class PgGroupTestCase(PostgresqlTestCase):

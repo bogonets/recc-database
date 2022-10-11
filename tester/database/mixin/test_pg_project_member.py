@@ -2,7 +2,7 @@
 
 from unittest import main
 
-from tester.unittest.postgresql_test_case import PostgresqlTestCase
+from tester.postgresql_test_case import PostgresqlTestCase
 
 
 class PgProjectMemberTestCase(PostgresqlTestCase):

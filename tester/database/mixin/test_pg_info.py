@@ -3,8 +3,8 @@
 from datetime import datetime, timedelta
 from unittest import main
 
-from recc_db.database.pg_db import version
-from tester.unittest.postgresql_test_case import PostgresqlTestCase
+from recc_database.database.pg_db import version
+from tester.postgresql_test_case import PostgresqlTestCase
 
 
 class PgInfoTestCase(PostgresqlTestCase):

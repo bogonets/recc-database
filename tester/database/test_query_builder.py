@@ -2,7 +2,7 @@
 
 from unittest import TestCase, main
 
-from recc_db.database.query_builder import UpdateBuilder
+from recc_database.database.query_builder import UpdateBuilder
 
 
 class UpdateBuilderTestCase(TestCase):

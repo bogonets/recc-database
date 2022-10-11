@@ -2,8 +2,8 @@
 
 from unittest import main
 
-from recc_db.database.query.permission import safe_insert_permission_only_slug
-from recc_db.variables.database import (
+from recc_database.database.query.permission import safe_insert_permission_only_slug
+from recc_database.variables.database import (
     DEFAULT_PERMISSION_SLUGS,
     DEFAULT_ROLE_SLUGS,
     PERMISSIONS_OF_DEVELOPER,
@@ -17,7 +17,7 @@ from recc_db.variables.database import (
     ROLE_SLUG_OWNER,
     ROLE_SLUG_REPORTER,
 )
-from tester.unittest.postgresql_test_case import PostgresqlTestCase
+from tester.postgresql_test_case import PostgresqlTestCase
 
 
 class PgPermissionTestCase(PostgresqlTestCase):

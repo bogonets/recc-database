@@ -3,7 +3,7 @@
 from datetime import datetime, timedelta
 from unittest import main, skipIf
 
-from tester.unittest.postgresql_test_case import PostgresqlTestCase
+from tester.postgresql_test_case import PostgresqlTestCase
 from tester.variables import UID_PERFORMANCE_ITERATION, UID_PERFORMANCE_TEST_SKIP
 
 

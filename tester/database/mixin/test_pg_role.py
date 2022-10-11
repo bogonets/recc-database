@@ -3,8 +3,8 @@
 from datetime import datetime, timedelta
 from unittest import main
 
-from recc_db.variables.database import ROLE_SLUG_OWNER, ROLE_UID_OWNER
-from tester.unittest.postgresql_test_case import PostgresqlTestCase
+from recc_database.variables.database import ROLE_SLUG_OWNER, ROLE_UID_OWNER
+from tester.postgresql_test_case import PostgresqlTestCase
 
 
 class PgRoleTestCase(PostgresqlTestCase):

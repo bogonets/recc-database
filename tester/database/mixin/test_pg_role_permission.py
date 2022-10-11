@@ -2,8 +2,10 @@
 
 from unittest import main
 
-from recc_db.database.query.role_permission import safe_insert_role_permission_by_slug
-from tester.unittest.postgresql_test_case import PostgresqlTestCase
+from recc_database.database.query.role_permission import (
+    safe_insert_role_permission_by_slug,
+)
+from tester.postgresql_test_case import PostgresqlTestCase
 
 
 class PgRolePermissionTestCase(PostgresqlTestCase):
